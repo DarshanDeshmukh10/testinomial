@@ -1,16 +1,19 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Testimonial from './components/Testimonial';
 import './App.css'
-
+import reviews from './data';
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <div>
-        
+      <div>
+        <h1>Our Testimonials</h1>
+        <div></div>
+        <Testimonial reviews={reviews}/>
+      </div>
     </div>
   )
 }
 
-export default App
+export default App;
