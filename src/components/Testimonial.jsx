@@ -1,10 +1,10 @@
 import React from 'react'
-
+import Card from './Card';
 const Testimonial = (props) => {
-    let reviews=props.review;
+    let reviews=props.reviews;
   return (
     <div>
-      <Card review={reviews[0]}/>
+      <Card review = {reviews[0]}/>
     </div>
   )
 }
