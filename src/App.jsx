@@ -11,7 +11,7 @@ function App() {
     
       <div className="text-center">
         <h1 className="text-4xl font-bold">Our Testimonials</h1>
-        <div className='bg-violet-400 h-[4px] w-[1/5] mt-1'></div>
+        <div className='bg-violet-400 h-[4px] w-1/5 mx-auto mt-1'></div>
         <Testimonial reviews={reviews}/>
       </div>
     </div>
